@@ -1,5 +1,6 @@
 # Misc files and directories
 __pycache__/
+.vscode/
 *.csv
 *.txt
 testing.py
