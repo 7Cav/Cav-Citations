@@ -60,12 +60,12 @@ def assembleCitation(citationName, nameText, dateText, dateNumber, citationText=
                 draw.text(((x-w/2), current_h), line,(0,0,0), font=font)
                 current_h += h + pad
 
-    # Name
+    # Write Name
     writeText("name", nameText)
-    # Citation
+    # Write Citation
     if citationText != False:
         writeText("citation", citationText)
-    # Date
+    # Write Date
     writeText("date", dateText)
 
 
