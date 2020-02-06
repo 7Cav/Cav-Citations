@@ -2,3 +2,7 @@
 __pycache__/
 *.csv
 *.txt
+testing.py
+
+# Ignore .jpeg files in root directory.
+/*.jpeg
