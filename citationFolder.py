@@ -47,7 +47,7 @@ class folderNameTools:
             name = fullName[rankLength+1:].split(" ") # Chop off the rank and following space, split name (without rank) into list.
             return "-".join([name[-1]] + name[:-1]) # Return folder name string using proper folder name format.
 
-        return [parseFolderName(i[2], i[1]) for i in roster().scrapeAllRosters()]
+        return [parseFolderName(i[2], i[1]) for i in roster().scrapeAllRosters(removeSpecialCharacters=True)]
 
     def checkFolders(self):
         '''
