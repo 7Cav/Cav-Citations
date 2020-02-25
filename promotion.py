@@ -5,19 +5,6 @@ from PIL import Image, ImageDraw, ImageFont
 import datetime
 import os
 
-# Promotion citaiton maker
-
-
-'''
-Date keys:
-    %d: Date w/ ordinal indicator, lowercase (Ex: 17th).
-    %D: Date w/ ordinal indicator, UPPERCASE (Ex: 17TH).
-    %m: Full month, lowercase (Ex: January).
-    %M: Full month, UPPERCASE (Ex: JANUARY).
-    %y: Full year (Ex: 2020).
-
-'''
-
 def ordinalIndicator(num):
     '''
     Take number and output string w/ ordinal indicator attached
@@ -46,6 +33,13 @@ def rankCitation(rank, name, date, saveFolder=False):
         date (int): Date of citation in filename format. (Ex: 21 January 2019 would be 190121) 
         saveFolder (str) [OPTIONAL]: What folder you want the citation saved in.
             If none given, saves to working directory.
+
+    Date keys:
+        [d]: Date w/ ordinal indicator, lowercase (Ex: 17th).
+        [D]: Date w/ ordinal indicator, UPPERCASE (Ex: 17TH).
+        [m]: Full month, lowercase (Ex: January).
+        [M]: Full month, UPPERCASE (Ex: JANUARY).
+        [y]: Full year (Ex: 2020).
     '''
     assert isinstance(date, str), f"Date needs to be a string. Current {type(date)}"
 
@@ -109,4 +103,3 @@ if __name__ == "__main__":
         if str(input("Again? (y/n): ")).lower() == "n":
             break
     print("Finished.")
-
