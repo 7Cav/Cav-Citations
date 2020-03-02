@@ -3,174 +3,593 @@
         "short": "AR",
         "long": "Reservist",
         "paygrade": "",
-        "milpacImage": "https://7cav.us/styles/7thcavalry/xenforo/avatars/avatar_s.png"
+        "milpacImage": "https://7cav.us/styles/7thcavalry/xenforo/avatars/avatar_s.png",
+        "citation": false
     },
     {
         "short": "RCT",
         "long": "Recruit",
         "paygrade": "E-1",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/28.jpg?1450284333"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/28.jpg?1450284333",
+        "citation": false
     },
     {
         "short": "PVT",
         "long": "Private",
         "paygrade": "E-2",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/27.jpg?1450281683"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/27.jpg?1450281683",
+        "citation": false
     },
     {
         "short": "PFC",
         "long": "Private First Class",
         "paygrade": "E-3",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/26.jpg?1450281657"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/26.jpg?1450281657",
+        "citation": {
+            "templateFile": "templates/promotion/PFC.jpeg",
+            "outFile": "E3-PFC",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 12,
+                "pos": [250, 475],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 10,
+                "pos": [250, 516],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "SPC",
         "long": "Specialist",
         "paygrade": "E-4",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/25.jpg?1450281633"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/25.jpg?1450281633",
+        "citation": {
+            "templateFile": "templates/promotion/SPC.jpeg",
+            "outFile": "E4-SPC",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 12,
+                "pos": [250, 475],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 10,
+                "pos": [250, 516],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "CPL",
         "long": "Corporal",
         "paygrade": "E-4",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/24.jpg?1450281612"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/24.jpg?1450281612",
+        "citation": {
+            "templateFile": "templates/promotion/CPL.jpeg",
+            "outFile": "E4-CPL",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 12,
+                "pos": [250, 475],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 10,
+                "pos": [250, 516],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "SGT",
         "long": "Sergeant",
         "paygrade": "E-5",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/23.jpg?1450281598"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/23.jpg?1450281598",
+        "citation": {
+            "templateFile": "templates/promotion/SGT.jpeg",
+            "outFile": "E5-SGT",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "SSG",
         "long": "Staff Sergeant",
         "paygrade": "E-6",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/22.jpg?1450281580"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/22.jpg?1450281580",
+        "citation": {
+            "templateFile": "templates/promotion/SSG.jpeg",
+            "outFile": "E6-SSG",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "SFC",
         "long": "Sergeant First Class",
         "paygrade": "E-7",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/21.jpg?1450281555"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/21.jpg?1450281555",
+        "citation": {
+            "templateFile": "templates/promotion/SFC.jpeg",
+            "outFile": "E7-SFC",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "MSG",
         "long": "Master Sergeant",
         "paygrade": "E-8",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/20.jpg?1450281534"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/20.jpg?1450281534",
+        "citation": {
+            "templateFile": "templates/promotion/MSG.jpeg",
+            "outFile": "E8-MSG",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
-        "short": "1ST",
+        "short": "1SG",
         "long": "First Sergeant",
         "paygrade": "E-8",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/19.jpg?1450281517"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/19.jpg?1450281517",
+        "citation": {
+            "templateFile": "templates/promotion/1SG.jpeg",
+            "outFile": "E8-1SG",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "SGM",
         "long": "Sergeant Major",
         "paygrade": "E-9",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/18.jpg?1450281499"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/18.jpg?1450281499",
+        "citation": {
+            "templateFile": "templates/promotion/SGM.jpeg",
+            "outFile": "E9-SGM",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "CSM",
         "long": "Command Sergeant Major",
         "paygrade": "E-9",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/17.jpg?1450281481"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/17.jpg?1450281481",
+        "citation": {
+            "templateFile": "templates/promotion/CSM.jpeg",
+            "outFile": "E9-CSM",
+            "name": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 462],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 13,
+                "pos": [255, 502],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "WO1",
         "long": "Warrant Officer 1",
         "paygrade": "W-1",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/16.jpg?1450281439"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/16.jpg?1450281439",
+        "citation": {
+            "templateFile": "templates/promotion/WO1.jpeg",
+            "outFile": "W1-WO1",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 15,
+                "pos": [250, 355],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/OldeEnglish.ttf",
+                "fontSize": 18,
+                "pos": [250, 503],
+                "dateText": "Given on this the [d] day of [m], [y]"
+            }
+        }
     },
     {
         "short": "CW2",
         "long": "Chief Warrant Officer 2",
         "paygrade": "W-2",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/15.jpg?1450281416"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/15.jpg?1450281416",
+        "citation": {
+            "templateFile": "templates/promotion/CW2.jpeg",
+            "outFile": "W2-CW2",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 15,
+                "pos": [250, 355],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/OldeEnglish.ttf",
+                "fontSize": 18,
+                "pos": [250, 503],
+                "dateText": "Given on this the [d] day of [m], [y]"
+            }
+        }
     },
     {
         "short": "CW3",
         "long": "Chief Warrant Officer 3",
         "paygrade": "W-3",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/14.jpg?1450281398"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/14.jpg?1450281398",
+        "citation": {
+            "templateFile": "templates/promotion/CW3.jpeg",
+            "outFile": "W3-CW3",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 15,
+                "pos": [250, 355],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/OldeEnglish.ttf",
+                "fontSize": 18,
+                "pos": [250, 503],
+                "dateText": "Given on this the [d] day of [m], [y]"
+            }
+        }
     },
     {
         "short": "CW4",
         "long": "Chief Warrant Officer 4",
         "paygrade": "W-4",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/13.jpg?1450281386"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/13.jpg?1450281386",
+        "citation": {
+            "templateFile": "templates/promotion/CW4.jpeg",
+            "outFile": "W4-CW4",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 15,
+                "pos": [250, 355],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/OldeEnglish.ttf",
+                "fontSize": 18,
+                "pos": [250, 503],
+                "dateText": "Given on this the [d] day of [m], [y]"
+            }
+        }
     },
     {
         "short": "CW5",
         "long": "Chief Warrant Officer 5",
         "paygrade": "W-5",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/12.jpg?1450281370"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/12.jpg?1450281370",
+        "citation": {
+            "templateFile": "templates/promotion/WO1.jpeg",
+            "outFile": "W5-CW5",
+            "name": {
+                "fontName": "fonts/GaramondPrePro.ttf",
+                "fontSize": 15,
+                "pos": [250, 355],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/OldeEnglish.ttf",
+                "fontSize": 18,
+                "pos": [250, 503],
+                "dateText": "Given on this the [d] day of [m], [y]"
+            }
+        }
     },
     {
         "short": "2LT",
         "long": "Second Lieutenant",
         "paygrade": "O-1",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/11.jpg?1450281265"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/11.jpg?1450281265",
+        "citation": {
+            "templateFile": "templates/promotion/2LT.jpeg",
+            "outFile": "O1-2LT",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "1LT",
         "long": "First Lieutenant",
         "paygrade": "O-2",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/10.jpg?1450281250"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/10.jpg?1450281250",
+        "citation": {
+            "templateFile": "templates/promotion/1LT.jpeg",
+            "outFile": "O2-1LT",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "CPT",
         "long": "Captain",
         "paygrade": "O-3",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/9.jpg?1450281234"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/9.jpg?1450281234",
+        "citation": {
+            "templateFile": "templates/promotion/CPT.jpeg",
+            "outFile": "O3-CPT",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "MAJ",
         "long": "Major",
         "paygrade": "O-4",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/8.jpg?1450281202"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/8.jpg?1450281202",
+        "citation": {
+            "templateFile": "templates/promotion/MAJ.jpeg",
+            "outFile": "O4-MAJ",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "LTC",
         "long": "Lieutenant Colonel",
         "paygrade": "O-5",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/7.jpg?1450281188"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/7.jpg?1450281188",
+        "citation": {
+            "templateFile": "templates/promotion/LTC.jpeg",
+            "outFile": "O5-LTC",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "COL",
         "long": "Colonel",
         "paygrade": "O-6",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/6.jpg?1450281158"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/6.jpg?1450281158",
+        "citation": {
+            "templateFile": "templates/promotion/COL.jpeg",
+            "outFile": "O6-COL",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "BG",
         "long": "Brigadier General",
         "paygrade": "O-7",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/5.jpg?1450281107"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/5.jpg?1450281107",
+        "citation": {
+            "templateFile": "templates/promotion/BG.jpeg",
+            "outFile": "O7-BG",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "MG",
         "long": "Major General",
         "paygrade": "O-8",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/4.jpg?1450281089"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/4.jpg?1450281089",
+        "citation": {
+            "templateFile": "templates/promotion/MG.jpeg",
+            "outFile": "O8-MG",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "LTG",
         "long": "Lieutenant General",
         "paygrade": "O-9",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/3.jpg?1450280949"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/3.jpg?1450280949",
+        "citation": {
+            "templateFile": "templates/promotion/LTG.jpeg",
+            "outFile": "O9-LTG",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "GEN",
         "long": "General",
         "paygrade": "O-10",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/2.jpg?1450280949"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/2.jpg?1450280949",
+        "citation": {
+            "templateFile": "templates/promotion/GEN.jpeg",
+            "outFile": "O10-GEN",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     },
     {
         "short": "GOA",
         "long": "General of the Army",
         "paygrade": "O-10",
-        "milpacImage": "data/pixelexit/rosters/ranks/0/1.jpg?1450280915"
+        "milpacImage": "data/pixelexit/rosters/ranks/0/1.jpg?1450280915",
+        "citation": {
+            "templateFile": "templates/promotion/GOA.jpeg",
+            "outFile": "O10-GOA",
+            "name": {
+                "fontName": "fonts/timesbd.ttf",
+                "fontSize": 15,
+                "pos": [250, 482],
+                "caps": true
+            },
+            "date": {
+                "fontName": "fonts/times.ttf",
+                "fontSize": 12,
+                "pos": [250, 518],
+                "dateText": "ON THIS THE [D] DAY OF [M], [y]"
+            }
+        }
     }
 ]

@@ -1,10 +1,30 @@
 #!/usr/bin/env python3
 
+import csv
 import json
 import textwrap
 
 from PIL import Image, ImageDraw, ImageFont
+from milpacScraper import roster
 
+def findTroopers():
+    ''' [IN PROGRESS]
+    Find troopers so you can extract their informations!
+    '''
+    
+    # Troopers to have a citation generated.
+    with open('sampleTroopers.csv', 'r') as file:
+        reader = csv.reader(file)
+        l = list(reader)
+        sampleTroopers = [i[0] for i in l]
+
+    # Locally saved milapcs roster list.
+    with open("rosters.csv", "r") as file:
+        reader = csv.reader(file)
+        scrapedTroopers = list(reader)
+
+    troopers = [[t[2], t[0]] for t in scrapedTroopers if t[2] in sampleTroopers]
+    print(troopers)
 
 def assembleCitation(citationName, nameText, dateText, dateNumber, citationText=False, saveFolder=False):
     '''
@@ -75,9 +95,10 @@ def assembleCitation(citationName, nameText, dateText, dateNumber, citationText=
     print(f"{fileName} saved.")
 
 if __name__ == "__main__":
-    assembleCitation(
-        citationName="POW",
-        nameText="Corporal Joshua Bell",
-        dateText="Given under my hand on the \n 8th Day of November 2094",
-        dateNumber=941108
-    )
+    # assembleCitation(
+    #     citationName="POW",
+    #     nameText="Corporal Joshua Bell",
+    #     dateText="Given under my hand on the \n 8th Day of November 2094",
+    #     dateNumber=941108
+    # )
+    findTroopers()
