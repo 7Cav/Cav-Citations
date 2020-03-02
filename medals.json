@@ -25,5 +25,33 @@
                 "charLimit": 0
             }
         }
+    },
+
+    "SUA": {
+        "templateFile": "templates/SUA.jpeg",
+        "name": {
+            "fontName": "fonts/GaramondPrePro.ttf",
+            "fontSize": 14,
+            "pos": [325, 253],
+            "wrap": false
+        },
+        "citation": {
+            "fontName": "fonts/GaramondPrePro.ttf",
+            "fontSize": 12,
+            "pos": [325, 275],
+            "wrap": {
+                "newline": false,
+                "charLimit": 120
+            }
+        },
+        "date": {
+            "fontName": "fonts/BookOS_B.ttf",
+            "fontSize": 14,
+            "pos": [325, 385],
+            "wrap": {
+                "newline": true,
+                "charLimit": 0
+            }
+        }
     }
 }
